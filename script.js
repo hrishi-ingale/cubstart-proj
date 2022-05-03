@@ -61,7 +61,7 @@ function deleteItem(event){
 }
 
 function clearInputs(){
-  $('.exes-name').val("");
+  $('.name').val("");
   $('.end-date').val("");
   $('.lessonsLearned').val("");
 }
