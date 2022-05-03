@@ -1,0 +1,107 @@
+
+
+body{
+  background-color: #242323;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color:#242323  ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
+h2
+{
+  color: #ff9100;
+  position: absolute;
+    top: 15%;
+    left: 30%;
+    margin-top: -25px;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+h2:link
+{
+  color: green;
+}
+
+h2:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h3
+{
+    color: #F68C01;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    margin-top: -25px;
+    margin-left: -25px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.card-container{
+  background: white;
+}
+
+.message {
+  color:#242323;
+}
+
+
+/* bigshot one font */
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
+
+body,html{margin:0;padding:0;height:100%;, width:100%}
+body{
+  background: #f1f1f1;
+  background-size:cover;
+  font-family: 'Cabin Condensed', sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+svg{font-weight:bold;max-width:600px;height:100%;}
+
+.btn {
+  color: #F68C01;
+  text-decoration:none;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 35px;
+}
+
+.btn:hover{
+  color:white;
+  background-color: #F68C01;
+  width: 35px;
+}
+
+.user-input {
+  
+}
+
+
